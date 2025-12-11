@@ -1,8 +1,8 @@
-
 from bleak.backends.device import BLEDevice
 from bleak.backends.scanner import AdvertisementData
 
 from . import delta3
+
 
 class Device(delta3.Device):
     """Delta 3 Ultra"""
